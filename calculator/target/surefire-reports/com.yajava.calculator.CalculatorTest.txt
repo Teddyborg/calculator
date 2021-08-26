@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.yajava.calculator.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.028 s <<< FAILURE! - in com.yajava.calculator.CalculatorTest
+subtraction  Time elapsed: 0.009 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-2.0> but was: <0.0>
+	at com.yajava.calculator.CalculatorTest.subtraction(CalculatorTest.java:21)
+
+factorial  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <5040> but was: <0>
+	at com.yajava.calculator.CalculatorTest.factorial(CalculatorTest.java:37)
+
+addition  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3.0> but was: <0.0>
+	at com.yajava.calculator.CalculatorTest.addition(CalculatorTest.java:16)
+
+division  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3.0> but was: <0.0>
+	at com.yajava.calculator.CalculatorTest.division(CalculatorTest.java:31)
+
+multiplication  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <30.0> but was: <0.0>
+	at com.yajava.calculator.CalculatorTest.multiplication(CalculatorTest.java:26)
+
+factorialException  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected com.yajava.calculator.ToLargeFactorialException to be thrown, but nothing was thrown.
+	at com.yajava.calculator.CalculatorTest.factorialException(CalculatorTest.java:46)
+
